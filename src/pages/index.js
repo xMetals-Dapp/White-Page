@@ -170,7 +170,7 @@ export default (() => {
 				{walletAddress && walletAddress.length > 0 ? "You must be whitelisted to continue." : "" }
 				</Text>
 				<Box min-width="100px" min-height="10px" />
-				<Link href="#" color="#238DE0" text-decoration-line="underline" href="https://www.google.com/">
+				<Link href="#" color="#238DE0" text-decoration-line="underline" href="http://whitelist.xmetals.io/">
 				{walletAddress && walletAddress.length > 0 ? "Click here to complete whitelisting" : ""}
 				</Link>
 			</Box>
