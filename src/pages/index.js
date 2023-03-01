@@ -80,18 +80,20 @@ export default (() => {
 		<Section
 			padding="24px 0 60px 0"
 			md-padding="30px 0 30px 0"
-			height="100%"
 			background="#23212D"
 			flex-direction="column"
 			align-items="center"
 			justify-content="center"
-		>
-			<Override
-				slot="SectionContent"
-				flex-direction="row-reverse"
-				md-flex-wrap="wrap"
-				align-items="center"
-				justify-content="center"
+			height="100%"
+>
+	<Override
+		slot="SectionContent"
+		flex-direction="column-reverse"
+		md-flex-wrap="wrap"
+		align-items="center"
+		justify-content="space-around"
+		height="640px"
+		md-justify-content="space-around"
 			/>
 			<Box
 				min-width="50px"
