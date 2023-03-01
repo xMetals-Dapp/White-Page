@@ -72,10 +72,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				xMetals App
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<meta name={"xMetals App"} content={"App created by xMetals"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/63ff9730b4ef240020700a3c/images/xMetals%20Icon.png?v=2023-03-01T21:55:01.585Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
 			padding="24px 0 60px 0"
@@ -123,7 +123,9 @@ export default (() => {
 				sm-height="500px"
 				flex-wrap="wrap-reverse"
 			>
-				<Image src="https://uploads.quarkly.io/63ff9730b4ef240020700a3c/images/xMetals%20Icon.png?v=2023-03-01T18:27:35.996Z" display="block" width="200px" height="200px" />
+		<Box min-width="100px" height="20px" />
+		<Image src="https://uploads.quarkly.io/63ff9730b4ef240020700a3c/images/xMetals%20Icon.png?v=2023-03-01T21:55:01.585Z" display="block" width="150px" height="150px" />
+		<Box min-width="100px" height="25px" />
 				<Text
 					margin="0px 0px 0px 0px"
 					color="#fff"
