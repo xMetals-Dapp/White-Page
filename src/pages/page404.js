@@ -12,8 +12,8 @@ export default (() => {
 				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
-			<meta name={"msapplication-TileColor"} content={"#232323"} />
+			<meta name={"xMetals App"} content={"App created by xMetals"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/63ff9730b4ef240020700a3c/images/xMetals%20Icon.png?v=2023-03-01T21:55:01.585Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section background="#23212D" height="700px">
 			<Box min-width="100px" height="5%" />
